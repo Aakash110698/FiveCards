@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/noofplayerstext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="150dp"
+        android:text="No. of Players :"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/targettext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-137dp"
+        android:layout_marginTop="210dp"
+        android:text="Max Target      :"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/noofplayers"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="150dp"
+        android:hint="2 - 8"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/targetvalue"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-155dp"
+        android:layout_marginTop="210dp"
+        android:hint="100 - 300"
+        android:inputType="number"
+        android:maxLength="3"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/enterBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-255dp"
+        android:layout_marginTop="280dp"
+        android:text="ENTER DETAILS"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/gameTextId"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="40dp"
+        android:text="5 Cards Game"
+        android:textColor="@color/black"
+        android:textSize="36dp" />
+
+</LinearLayout>
